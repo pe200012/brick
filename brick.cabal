@@ -100,13 +100,13 @@ library
     Brick.Widgets.ProgressBar
     Brick.Widgets.Table
     Data.IMap
+    Brick.Types.Internal
+    Brick.Widgets.Internal
   other-modules:
     Brick.Animation.Clock
     Brick.Types.Common
     Brick.Types.TH
     Brick.Types.EventM
-    Brick.Types.Internal
-    Brick.Widgets.Internal
 
   build-depends:       base >= 4.9.0.0 && < 4.23.0.0,
                        vty >= 6.0,
